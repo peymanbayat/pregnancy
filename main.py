@@ -43,7 +43,7 @@ def predict():
     st.markdown('BMI: Body mass index (weight in kg/(height in m)^2)')
 
     dpf = st.number_input("Please connect the device to your computer, Data Reading from the Devics:")
-    st.markdown('Number of time periods consideration in the plot (read from device)')
+    st.markdown('Number of time periods consideration in the plot (read from the device)')
 
 
     age = st.number_input("Age:")
