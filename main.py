@@ -20,7 +20,7 @@ def predict():
     # if not st.sidebar.checkbox("Hide", True, key='2'):
     st.title('Congenital Disabilities Prediction (Only for Females Above 19 Years of Age)')
     st.markdown('This trained dataset is originally collected by BirthGenomics Company.')
-    st.markdown('We will be very greatful if you share your data in this regard with us.')
+    st.markdown('It will be very greatful if you share your data in this regard with us.')
 
     name = st.text_input("DNA Sequence:")
     pregnancy = st.number_input("No. of times pregnant:")
@@ -59,7 +59,7 @@ def predict():
         if prediction == 0:
             st.write('Congratulation!', name,'It seems you are not a risky case')
         else:
-            st.write(name,", It seems like you are in risk. But don't lose hope, we strongly recommnd visit a especialist doctor")
+            st.write(name,", It seems you are in risk. But don't lose hope, we strongly recommnd visit a especialist doctor")
 
 
 def main():
